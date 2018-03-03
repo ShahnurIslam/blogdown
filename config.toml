@@ -36,3 +36,14 @@ googleAnalytics = "UA-96884074-1"
     name = "About Me"
     url = "page/about/"
     weight = 1
+    
+    [[menu.main]]
+    identifier = "Resources"
+    name = "Resources"
+    weight = 2
+
+    [[menu.main]]
+    parent = "Resources"
+    name = "John Mackintosh"
+    url = "https://www.johnmackintosh.com/"
+    weight = 1
