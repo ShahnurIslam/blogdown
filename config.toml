@@ -1,0 +1,38 @@
+baseurl = "https://shahnurislam.github.io"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "Shan Data Scientist to be!"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+disqusShortname = "https-shahnurislam-github-io"
+googleAnalytics = "UA-96884074-1"
+
+
+[Params]
+  logo = "img/Logo.png"
+  favicon = "img/favicon (1).ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = true
+  readingTime = true
+  useHLJS = true
+  
+  [Author]
+  name = "Shan Islam"
+  website = "http://shan-data-science.co.uk/"
+  github = "ShahnurIslam"
+  twitter = "5hanIslam"
+  linkedin = "shahnurislam"
+  
+  
+  [[menu.main]]
+    name = "About Me"
+    url = "page/about/"
+    weight = 1

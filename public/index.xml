@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shan Data Scientist to be!</title>
+    <link>https://shahnurislam.github.io/</link>
+    <description>Recent content on Shan Data Scientist to be!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahnurislam.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SQL part 1 of 4</title>
+      <link>https://shahnurislam.github.io/post/sql-part-1-of-4/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahnurislam.github.io/post/sql-part-1-of-4/</guid>
+      <description>I had to recall what SQL(Structured Query Language) actually stood for because no one actually calls it &amp;lsquo;Structured Query Language&amp;rsquo;. People just refer to it as &amp;lsquo;see-kwel&amp;rsquo; or as my wife calls it a sequel to a movie and that Godfather 2 is the only acceptable kind.
+If you have a lot of historic data that you need to access and interrogate regularly then SQL is probably the way to go.</description>
+    </item>
+    
+    <item>
+      <title>First post!</title>
+      <link>https://shahnurislam.github.io/post/first-post/</link>
+      <pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahnurislam.github.io/post/first-post/</guid>
+      <description>You start a blog and then you can&amp;rsquo;t decide what to write about in your first post. After mulling it over I decided I would write why I want to be a data scientist and show any cool things I&amp;rsquo;ve seen.
+If you don&amp;rsquo;t want to read all the below just skip to the bottom that summarises everything and a cool example of data science in action.
+I first discovered data science accidently while perusing courses on Udemy when I was looking for courses to improve my SQL skills.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://shahnurislam.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahnurislam.github.io/page/about/</guid>
+      <description>Hi my name is Shan. I&amp;rsquo;m currently a data analyst based in London for a Marketing Agency, with a background in mathematics and some programming I did in school.
+I discovered data science about 2 years ago and realised it was my dream job. So I talked it over with my wife and decided to start this blog to hold myself accountable and post my thoughts/tutorials or anything cool I come across the web.</description>
+    </item>
+    
+  </channel>
+</rss>
