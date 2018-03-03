@@ -2,29 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Shan Data Scientist to be!</title>
-    <link>/tags/</link>
+    <link>https://shahnur.co.uk/tags/</link>
     <description>Recent content in Tags on Shan Data Scientist to be!</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 15 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shahnur.co.uk/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Data Science</title>
-      <link>/tags/data-science/</link>
-      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <link>https://shahnur.co.uk/tags/data-science/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/data-science/</guid>
+      <guid>https://shahnur.co.uk/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://shahnur.co.uk/tags/python/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahnur.co.uk/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sql</title>
-      <link>/tags/sql/</link>
+      <link>https://shahnur.co.uk/tags/sql/</link>
       <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sql/</guid>
+      <guid>https://shahnur.co.uk/tags/sql/</guid>
       <description></description>
     </item>
     

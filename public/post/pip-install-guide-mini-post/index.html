@@ -5,14 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>SQL part 1 of 4</title>
-  <meta property="og:title" content="SQL part 1 of 4" />
-  <meta name="twitter:title" content="SQL part 1 of 4" />
-  <meta name="description" content="I had to recall what SQL(Structured Query Language) actually stood for because no one actually calls it &lsquo;Structured Query Language&rsquo;. People just refer to it as &lsquo;see-kwel&rsquo; or as my wife calls it a sequel to a movie and that Godfather 2 is the only acceptable kind.
-If you have a lot of historic data that you need to access and interrogate regularly then SQL is probably the way to go.">
-  <meta property="og:description" content="I had to recall what SQL(Structured Query Language) actually stood for because no one actually calls it &lsquo;Structured Query Language&rsquo;. People just refer to it as &lsquo;see-kwel&rsquo; or as my wife calls it a sequel to a movie and that Godfather 2 is the only acceptable kind.
-If you have a lot of historic data that you need to access and interrogate regularly then SQL is probably the way to go.">
-  <meta name="twitter:description" content="I had to recall what SQL(Structured Query Language) actually stood for because no one actually calls it &lsquo;Structured Query Language&rsquo;. People just refer to it as &lsquo;see-kwel&rsquo; or as …">
+  <title>Pip install guide[Mini-Post]</title>
+  <meta property="og:title" content="Pip install guide[Mini-Post]" />
+  <meta name="twitter:title" content="Pip install guide[Mini-Post]" />
+  <meta name="description" content="Quick guide to installing Python libraries">
+  <meta property="og:description" content="Quick guide to installing Python libraries">
+  <meta name="twitter:description" content="Quick guide to installing Python libraries">
   <meta name="author" content="Shan Islam"/>
   <link href='https://shahnur.co.uk/img/favicon%20%281%29.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://shahnur.co.uk/img/Logo.png" />
@@ -20,12 +18,12 @@ If you have a lot of historic data that you need to access and interrogate regul
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@5hanIslam" />
   <meta name="twitter:creator" content="@5hanIslam" />
-  <meta property="og:url" content="https://shahnur.co.uk/post/sql-part-1-of-4/" />
+  <meta property="og:url" content="https://shahnur.co.uk/post/pip-install-guide-mini-post/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Shan Data Scientist to be!" />
 
   <meta name="generator" content="Hugo 0.32.4" />
-  <link rel="canonical" href="https://shahnur.co.uk/post/sql-part-1-of-4/" />
+  <link rel="canonical" href="https://shahnur.co.uk/post/pip-install-guide-mini-post/" />
   <link rel="alternate" href="https://shahnur.co.uk/index.xml" type="application/rss+xml" title="Shan Data Scientist to be!">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -157,17 +155,21 @@ ga('send', 'pageview');
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
-              <h1>SQL part 1 of 4</h1>
+              <h1>Pip install guide[Mini-Post]</h1>
+                
+                  
+                    <h2 class="post-subheading">Quick guide to installing Python libraries</h2>
+                  
                 
                 
                   <span class="post-meta">
   
   
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on May 15, 2017
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 3, 2017
   
   
   &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 3 minutes (476 words)
+  <i class="fa fa-clock-o"></i> 3 minutes (450 words)
   
   
 </span>
@@ -189,54 +191,60 @@ ga('send', 'pageview');
       <article role="main" class="blog-post">
         
 
-<p>I had to recall what SQL(Structured Query Language) actually stood for because no one actually calls it &lsquo;Structured Query Language&rsquo;.
-People just refer to it as &lsquo;see-kwel&rsquo; or as my wife calls it a sequel to a movie and that Godfather 2 is the only acceptable kind.</p>
+<p>I will get back to the SQL posts but thought I would post something that could be useful to others. If you want to use Python for Data Science you will need additional python libraries.</p>
 
-<p>If you have a lot of historic data that you need to access and interrogate regularly then SQL is probably the way to go.
-As a programming language it&rsquo;s probably one of the softer languages and can be learnt by most people. Most of the basic queries are easy to understand if the columns of your data are labelled well. You can usualy decipher what they were asking of the data.</p>
+<p>I don&rsquo;t have a huge understanding of command line functions and I found it a bit difficult to find a step by step guide on how to install python libraries .</p>
 
-<p>Like the query below whcich simply returns all the first names from your customers present in your database.
-</br></br></p>
-<div class="highlight"><pre class="chroma"><code class="language-SQL" data-lang="SQL"><span class="k">SELECT</span> <span class="n">first_name</span> <span class="k">FROM</span> <span class="n">customer</span></code></pre></div>
-<p></br>
-However it does have its pitfall.</p>
+<p>My wife(the doctor) thought that PIP was something else medical related from a scandal a few years ago. I won&rsquo;t mention it here as I&rsquo;m trying to keep this blog proffessional but it has nothing to do with that.</p>
 
-<p>-Someone needs to maintain the data</p>
+<p><strong>The basic idea is we&rsquo;re telling the command line to run the program &lsquo;pip&rsquo; and tell it to install the python library you desire.</strong></p>
 
-<p>-Whatever goes into the database will be outputted. Or as programmers like to say &lsquo;rubbish in = rubbish out.</p>
+<p>Let&rsquo;s run through an example, I use a windows machine so that&rsquo;s the example I&rsquo;m going to use.</p>
 
-<p>-For more complicated questions, queries can become quite large.</p>
+<h3 id="step-1-download-package"><strong>Step 1 Download package</strong></h3>
 
-<p>I&rsquo;m not going to be teaching SQL in this blog as that&rsquo;s not why I started it. There are plenty of places online that have good tutorals already so just Google &lsquo;SQL tutorials&rsquo; and you should find them.</p>
+<p>Download the relevant package that matches your version of Python(2 or 3) and OS(operating system) from the site below</p>
 
-<p>However I will recommend the site <a href="http://sqlzoo.net/">SQL ZOO</a>. They do have tutorials on there but I recommend the site for the assessment examples. Which asks you questions about a database and you need to write queries to answer them. I alway find the best way to learn is by doing.</p>
+<p><a href="https://pypi.python.org/pypi">https://pypi.python.org/pypi</a></p>
 
-<p>When i first started learning SQL a few years ago, i thought to myself &lsquo;I&rsquo;m good at this&rsquo; despite only doing simple joins and basic queres.
-I then remember doing a SQL test once in the very early days of my career. A simple question came up and I was stumped:</br></br></p>
+<p>I&rsquo;m going to download the numpy package for Python 3.6 and windows 32</p>
 
-<h4 id="how-would-you-find-a-customer-s-first-order-date-br-br">&ldquo;How would you find a customer&rsquo;s first order date?&rdquo;</br></br></h4>
+<p><img src="/img/Python%20Library.PNG" alt="Image" /></p>
 
-<p>Ok&hellip;i thought let me sort the colums by order date then customer. But ok how do I get the first order date for each customer. I racked my brain and no matter how I sliced the data it just wouldn&rsquo;t work.</p>
+<h3 id="step-2-find-your-pip-directory"><strong>Step 2 Find your pip directory</strong></h3>
 
-<p>After the test was done, I looked up the answer and it was so simple I was gobsmacked. All I had to do was use the function <em>MIN()</em>
-Which basically returns the minimum value in a list that also happens to works with date.</p>
+<p>Now we just need the full directory for pip, go into the program folder where you have Python is installed. I happen to have it installed on the C drive but it could be different in your case. A quick shortcut to get the directory of a file is to hold shift and right click the file. You&rsquo;ll see an option &lsquo;copy as path&rsquo;, click that</p>
 
-<p>It made me realise how much I need to learn about SQL.
-Ever since then I&rsquo;ve practiced more, read more but still have a long way to go.</p>
+<p><img src="/img/Copy%20as%20path.png" alt="Image" /></p>
 
-<p>Here are a few things I plan to learn and will cover in the next post</p>
+<p>You&rsquo;ll end up with a directory like the below</p>
 
-<p>-Segmentation</p>
+<p>&ldquo;C:\Python\Scripts\pip.exe&rdquo;</p>
 
-<p>-Windows functions</p>
+<p>Also when copying a directory in windows, the directory is shown with back slashes but the command line needs this to be forward slashes to run the program. We change this to:</p>
 
-<p>-Stored procedures</p>
+<p>C:/Python/Scripts/pip.exe</p>
 
-<p>-Rank</p>
+<h3 id="step-3-start-the-command-line-from-the-downloaded-folder"><strong>Step 3 Start the command line from the downloaded folder</strong></h3>
 
-<p>Not sure if anyone is reading this but thanks if you did.</p>
+<p>Similar to what we did above, find the folder you downloaded the python package to.
+Hold shift and right click the folder you should see an option &ldquo;open command window here&rdquo;. Click that option</p>
 
-<p>Shan.</p>
+<p><img src="/img/Open%20Command%20window.png" alt="Image" /></p>
+
+<h3 id="step-4-install-python-package"><strong>Step 4 Install python package</strong></h3>
+
+<p>Once the command line window is open paste the pip directory we found earlier.</p>
+
+<p>Add the word &ldquo;install&rdquo; on the end with a space.</p>
+
+<p>Now we just need the name of the package, instead of copy and pasting the name of the package. A nice shortcut the command window has if you type the first few letters of the python package in this case &ldquo;nump&rdquo; and  press tab it&rsquo;ll shift through the files in the current directory. One you&rsquo;ve selected the right file just hit enter and you should see the below</p>
+
+<p><img src="/img/CMD%20install%20numpy.PNG" alt="image" /></p>
+
+<p>Thanks for reading and appreciate any feedback on posts!</p>
+
+<p>Shan</p>
 
       </article>
 
@@ -244,13 +252,9 @@ Ever since then I&rsquo;ve practiced more, read more but still have a long way t
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://shahnur.co.uk/post/first-post/" data-toggle="tooltip" data-placement="top" title="First post!">&larr; Previous Post</a>
+              <a href="https://shahnur.co.uk/post/sql-part-1-of-4/" data-toggle="tooltip" data-placement="top" title="SQL part 1 of 4">&larr; Previous Post</a>
             </li>
           
-          
-            <li class="next">
-              <a href="https://shahnur.co.uk/post/pip-install-guide-mini-post/" data-toggle="tooltip" data-placement="top" title="Pip install guide[Mini-Post]">Next Post &rarr;</a>
-            </li>
           
         </ul>
       

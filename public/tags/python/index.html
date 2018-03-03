@@ -5,14 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>SQL part 1 of 4</title>
-  <meta property="og:title" content="SQL part 1 of 4" />
-  <meta name="twitter:title" content="SQL part 1 of 4" />
-  <meta name="description" content="I had to recall what SQL(Structured Query Language) actually stood for because no one actually calls it &lsquo;Structured Query Language&rsquo;. People just refer to it as &lsquo;see-kwel&rsquo; or as my wife calls it a sequel to a movie and that Godfather 2 is the only acceptable kind.
-If you have a lot of historic data that you need to access and interrogate regularly then SQL is probably the way to go.">
-  <meta property="og:description" content="I had to recall what SQL(Structured Query Language) actually stood for because no one actually calls it &lsquo;Structured Query Language&rsquo;. People just refer to it as &lsquo;see-kwel&rsquo; or as my wife calls it a sequel to a movie and that Godfather 2 is the only acceptable kind.
-If you have a lot of historic data that you need to access and interrogate regularly then SQL is probably the way to go.">
-  <meta name="twitter:description" content="I had to recall what SQL(Structured Query Language) actually stood for because no one actually calls it &lsquo;Structured Query Language&rsquo;. People just refer to it as &lsquo;see-kwel&rsquo; or as …">
+  <title>Python</title>
+  <meta property="og:title" content="Python" />
+  <meta name="twitter:title" content="Python" />
   <meta name="author" content="Shan Islam"/>
   <link href='https://shahnur.co.uk/img/favicon%20%281%29.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://shahnur.co.uk/img/Logo.png" />
@@ -20,13 +15,13 @@ If you have a lot of historic data that you need to access and interrogate regul
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@5hanIslam" />
   <meta name="twitter:creator" content="@5hanIslam" />
-  <meta property="og:url" content="https://shahnur.co.uk/post/sql-part-1-of-4/" />
+  <meta property="og:url" content="https://shahnur.co.uk/tags/python/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Shan Data Scientist to be!" />
 
   <meta name="generator" content="Hugo 0.32.4" />
-  <link rel="canonical" href="https://shahnur.co.uk/post/sql-part-1-of-4/" />
-  <link rel="alternate" href="https://shahnur.co.uk/index.xml" type="application/rss+xml" title="Shan Data Scientist to be!">
+  <link rel="canonical" href="https://shahnur.co.uk/tags/python/" />
+  <link rel="alternate" href="https://shahnur.co.uk/tags/python/index.xml" type="application/rss+xml" title="Shan Data Scientist to be!">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -140,40 +135,14 @@ ga('send', 'pageview');
 
 
     
-  
-  
-  
-
-
-
-
-  
-
   <header class="header-section ">
-    
     <div class="intro-header no-img">
-      
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="post-heading">
-              <h1>SQL part 1 of 4</h1>
-                
-                
-                  <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on May 15, 2017
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 3 minutes (476 words)
-  
-  
-</span>
-
-
-                
+            <div class="page-heading">
+              <h1>#Python</h1>
+              <hr class="small">
             </div>
           </div>
         </div>
@@ -181,112 +150,53 @@ ga('send', 'pageview');
     </div>
   </header>
 
-
     
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <article role="main" class="blog-post">
+  <div class="container" role="main">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         
-
-<p>I had to recall what SQL(Structured Query Language) actually stood for because no one actually calls it &lsquo;Structured Query Language&rsquo;.
-People just refer to it as &lsquo;see-kwel&rsquo; or as my wife calls it a sequel to a movie and that Godfather 2 is the only acceptable kind.</p>
-
-<p>If you have a lot of historic data that you need to access and interrogate regularly then SQL is probably the way to go.
-As a programming language it&rsquo;s probably one of the softer languages and can be learnt by most people. Most of the basic queries are easy to understand if the columns of your data are labelled well. You can usualy decipher what they were asking of the data.</p>
-
-<p>Like the query below whcich simply returns all the first names from your customers present in your database.
-</br></br></p>
-<div class="highlight"><pre class="chroma"><code class="language-SQL" data-lang="SQL"><span class="k">SELECT</span> <span class="n">first_name</span> <span class="k">FROM</span> <span class="n">customer</span></code></pre></div>
-<p></br>
-However it does have its pitfall.</p>
-
-<p>-Someone needs to maintain the data</p>
-
-<p>-Whatever goes into the database will be outputted. Or as programmers like to say &lsquo;rubbish in = rubbish out.</p>
-
-<p>-For more complicated questions, queries can become quite large.</p>
-
-<p>I&rsquo;m not going to be teaching SQL in this blog as that&rsquo;s not why I started it. There are plenty of places online that have good tutorals already so just Google &lsquo;SQL tutorials&rsquo; and you should find them.</p>
-
-<p>However I will recommend the site <a href="http://sqlzoo.net/">SQL ZOO</a>. They do have tutorials on there but I recommend the site for the assessment examples. Which asks you questions about a database and you need to write queries to answer them. I alway find the best way to learn is by doing.</p>
-
-<p>When i first started learning SQL a few years ago, i thought to myself &lsquo;I&rsquo;m good at this&rsquo; despite only doing simple joins and basic queres.
-I then remember doing a SQL test once in the very early days of my career. A simple question came up and I was stumped:</br></br></p>
-
-<h4 id="how-would-you-find-a-customer-s-first-order-date-br-br">&ldquo;How would you find a customer&rsquo;s first order date?&rdquo;</br></br></h4>
-
-<p>Ok&hellip;i thought let me sort the colums by order date then customer. But ok how do I get the first order date for each customer. I racked my brain and no matter how I sliced the data it just wouldn&rsquo;t work.</p>
-
-<p>After the test was done, I looked up the answer and it was so simple I was gobsmacked. All I had to do was use the function <em>MIN()</em>
-Which basically returns the minimum value in a list that also happens to works with date.</p>
-
-<p>It made me realise how much I need to learn about SQL.
-Ever since then I&rsquo;ve practiced more, read more but still have a long way to go.</p>
-
-<p>Here are a few things I plan to learn and will cover in the next post</p>
-
-<p>-Segmentation</p>
-
-<p>-Windows functions</p>
-
-<p>-Stored procedures</p>
-
-<p>-Rank</p>
-
-<p>Not sure if anyone is reading this but thanks if you did.</p>
-
-<p>Shan.</p>
-
-      </article>
-
-      
-        <ul class="pager blog-pager">
+        <div class="posts-list">
           
-            <li class="previous">
-              <a href="https://shahnur.co.uk/post/first-post/" data-toggle="tooltip" data-placement="top" title="First post!">&larr; Previous Post</a>
-            </li>
-          
-          
-            <li class="next">
-              <a href="https://shahnur.co.uk/post/pip-install-guide-mini-post/" data-toggle="tooltip" data-placement="top" title="Pip install guide[Mini-Post]">Next Post &rarr;</a>
-            </li>
-          
-        </ul>
-      
+            <article class="post-preview">
+              <a href="https://shahnur.co.uk/post/pip-install-guide-mini-post/">
+                <h2 class="post-title">Pip install guide[Mini-Post]</h2>
 
+                
+                  <h3 class="post-subtitle">
+                    Quick guide to installing Python libraries
+                  </h3>
+                
+              </a>
 
-      
+              <p class="post-meta">
+                Posted on June 3, 2017
+              </p>
+              <div class="post-entry">
+                
+                  I will get back to the SQL posts but thought I would post something that could be useful to others. If you want to use Python for Data Science you will need additional python libraries.
+I don&rsquo;t have a huge understanding of command line functions and I found it a bit difficult to find a step by step guide on how to install python libraries .
+My wife(the doctor) thought that PIP was something else medical related from a scandal a few years ago.
+                  <a href="https://shahnur.co.uk/post/pip-install-guide-mini-post/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <span class="post-meta">
+                  
+                    #<a href="https://shahnur.co.uk/tags/data-science/">data science</a>&nbsp;
+                  
+                    #<a href="https://shahnur.co.uk/tags/python/">python</a>&nbsp;
+                  
+                </span>
+              
+
+            </article>
+          
+        </div>
         
-          <div class="disqus-comments">
-            <div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "https-shahnurislam-github-io" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-          </div>
-        
-        
-      
-
+      </div>
     </div>
   </div>
-</div>
 
     <footer>
   <div class="container">

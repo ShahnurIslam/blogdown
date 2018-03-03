@@ -3,56 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/sql-part-1-of-4/</loc>
+    <loc>https://shahnur.co.uk/post/pip-install-guide-mini-post/</loc>
+    <lastmod>2017-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahnur.co.uk/post/sql-part-1-of-4/</loc>
     <lastmod>2017-05-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/first-post/</loc>
+    <loc>https://shahnur.co.uk/post/first-post/</loc>
     <lastmod>2017-04-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/page/about/</loc>
+    <loc>https://shahnur.co.uk/page/about/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://shahnur.co.uk/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/data-science/</loc>
+    <loc>https://shahnur.co.uk/tags/data-science/</loc>
+    <lastmod>2017-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shahnur.co.uk/page/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shahnur.co.uk/post/</loc>
+    <lastmod>2017-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shahnur.co.uk/tags/python/</loc>
+    <lastmod>2017-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shahnur.co.uk/</loc>
+    <lastmod>2017-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shahnur.co.uk/tags/sql/</loc>
     <lastmod>2017-05-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/page/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/sql/</loc>
-    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
+    <loc>https://shahnur.co.uk/tags/</loc>
+    <lastmod>2017-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
