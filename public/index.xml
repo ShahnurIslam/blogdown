@@ -5,10 +5,20 @@
     <link>https://shahnur.co.uk/</link>
     <description>Recent content on Shan Data Scientist to be!</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 03 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://shahnur.co.uk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>G1 Climax</title>
+      <link>https://shahnur.co.uk/post/g1-climax/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahnur.co.uk/post/g1-climax/</guid>
+      <description>Here&amp;rsquo;s a post that is slightly different to the other posts that I&amp;rsquo;ve done so far. Rather than having a step by step tutorial on how to do something. The below allows me to work on my python skills and explain a few things as I go along.
+People who work in Data Science tend to work in programming languages R or Python. I&amp;rsquo;ve been learning both languages over the last two years and at the moment I&amp;rsquo;m trying to get better at my Python.</description>
+    </item>
     
     <item>
       <title>Pip install guide[Mini-Post]</title>
