@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sql on Shan Data Scientist to be!</title>
-    <link>https://shahnur.co.uk/tags/sql/</link>
+    <link>/tags/sql/</link>
     <description>Recent content in Sql on Shan Data Scientist to be!</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 15 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://shahnur.co.uk/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SQL part 1 of 4</title>
-      <link>https://shahnur.co.uk/post/sql-part-1-of-4/</link>
+      <link>/post/sql-part-1-of-4/</link>
       <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://shahnur.co.uk/post/sql-part-1-of-4/</guid>
+      <guid>/post/sql-part-1-of-4/</guid>
       <description>I had to recall what SQL(Structured Query Language) actually stood for because no one actually calls it &amp;lsquo;Structured Query Language&amp;rsquo;. People just refer to it as &amp;lsquo;see-kwel&amp;rsquo; or as my wife calls it a sequel to a movie and that Godfather 2 is the only acceptable kind.
 If you have a lot of historic data that you need to access and interrogate regularly then SQL is probably the way to go.</description>
     </item>
