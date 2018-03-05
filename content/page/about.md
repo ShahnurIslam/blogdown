@@ -12,6 +12,7 @@ I discovered data science about 2 years ago and realised it was my dream job. So
 I didn't post much or accomplish as many tasks as I would have liked in 2017 but hopefully I can change that. I hope to post more and accomplish the goals below. 
 
 At the moment here are things I would like to finish in 2018
+
 - Post at least 10 times this year
 - Finish the Data Science specilisation on Coursera. Currently I've done 3 out of 9.
 - Udemy course Workshop in Probability & Statics **(61% done)**. My statistics wasn't great so decided to brush up as this is a key part of data science
