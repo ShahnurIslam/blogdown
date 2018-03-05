@@ -1,0 +1,44 @@
+---
+title: "Clash of Clans"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+I decided to do some analysis on my Clash Royale battles. It's card game created SuperCell and each one last 3 minutes. I've had 100 fights and tried to keep everything as consistent on my end. Using the same deck no change in levels. 
+
+```{r chunk}
+library(googlesheets)
+#gs_auth(new_user = TRUE) # Use this to authorise R connecting to your Google Drive
+#gs_ls() # List all the google sheet files 
+sheet <- gs_title("COC Data")
+gs_data <-gs_read(sheet)
+df <- as.data.frame(gs_data)
+head(df)
+```
+
+Now let's how many records we have
+
+```{r}
+table(df$`WIN/LOSE`)
+```
+
+
+
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+library(ggplot2)
+g <-ggplot(data = df, aes('WIN/LOSE'))
+g+  geom_bar()
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
