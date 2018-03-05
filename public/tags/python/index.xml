@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Shan Data Scientist to be!</title>
-    <link>/tags/python/</link>
+    <link>https://shahnur.co.uk/tags/python/</link>
     <description>Recent content in Python on Shan Data Scientist to be!</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 23 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shahnur.co.uk/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>G1 Climax</title>
-      <link>/post/g1-climax/</link>
+      <link>https://shahnur.co.uk/post/g1-climax/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/g1-climax/</guid>
+      <guid>https://shahnur.co.uk/post/g1-climax/</guid>
       <description>Here&amp;rsquo;s a post that is slightly different to the other posts that I&amp;rsquo;ve done so far. Rather than having a step by step tutorial on how to do something. The below allows me to work on my python skills and explain a few things as I go along.
 People who work in Data Science tend to work in programming languages R or Python. I&amp;rsquo;ve been learning both languages over the last two years and at the moment I&amp;rsquo;m trying to get better at my Python.</description>
     </item>
     
     <item>
       <title>Pip install guide[Mini-Post]</title>
-      <link>/post/pip-install-guide-mini-post/</link>
+      <link>https://shahnur.co.uk/post/pip-install-guide-mini-post/</link>
       <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/pip-install-guide-mini-post/</guid>
+      <guid>https://shahnur.co.uk/post/pip-install-guide-mini-post/</guid>
       <description>I will get back to the SQL posts but thought I would post something that could be useful to others. If you want to use Python for Data Science you will need additional python libraries.
 I don&amp;rsquo;t have a huge understanding of command line functions and I found it a bit difficult to find a step by step guide on how to install python libraries .
 My wife(the doctor) thought that PIP was something else medical related from a scandal a few years ago.</description>

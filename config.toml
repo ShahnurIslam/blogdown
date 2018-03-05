@@ -12,7 +12,7 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentOptions = "linenos=inline"
 disqusShortname = "https-shahnurislam-github-io"
 googleAnalytics = "UA-96884074-1"
-
+paginate = 5
 
 [Params]
   logo = "img/Logo.png"
@@ -21,7 +21,7 @@ googleAnalytics = "UA-96884074-1"
   commit = false
   rss = false
   comments = true
-  readingTime = true
+  readingTime = false
   useHLJS = true
   
   [Author]
