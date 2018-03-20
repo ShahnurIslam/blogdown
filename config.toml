@@ -11,7 +11,7 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 disqusShortname = "https-shahnurislam-github-io"
-googleAnalytics = "UA-96884074-1"
+#googleAnalytics = "UA-96884074-1"
 paginate = 5
 
 [Params]

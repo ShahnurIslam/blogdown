@@ -3,94 +3,99 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://shahnur.co.uk/post/jekyll-cookies-mini-post/</loc>
+    <loc>/post/2018-03-09-sql-part-2-of-4/</loc>
+    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/jekyll-cookies-mini-post/</loc>
     <lastmod>2018-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/post/new-year-new-post/</loc>
+    <loc>/post/new-year-new-post/</loc>
     <lastmod>2018-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/post/g1-climax/</loc>
+    <loc>/post/g1-climax/</loc>
     <lastmod>2017-10-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/post/pip-install-guide-mini-post/</loc>
+    <loc>/post/pip-install-guide-mini-post/</loc>
     <lastmod>2017-06-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/post/sql-part-1-of-4/</loc>
+    <loc>/post/sql-part-1-of-4/</loc>
     <lastmod>2017-05-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/post/first-post/</loc>
+    <loc>/post/first-post/</loc>
     <lastmod>2017-04-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/page/about/</loc>
+    <loc>/page/about/</loc>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/tags/data-science/</loc>
-    <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+    <loc>/tags/data-science/</loc>
+    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/tags/general/</loc>
+    <loc>/tags/general/</loc>
     <lastmod>2018-01-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/tags/jekyll/</loc>
+    <loc>/tags/jekyll/</loc>
     <lastmod>2018-03-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/page/</loc>
+    <loc>/page/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/post/</loc>
-    <lastmod>2018-03-02T00:00:00+00:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/tags/python/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2017-10-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/</loc>
-    <lastmod>2018-03-02T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/tags/sql/</loc>
-    <lastmod>2017-05-15T00:00:00+00:00</lastmod>
+    <loc>/tags/sql/</loc>
+    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://shahnur.co.uk/tags/</loc>
-    <lastmod>2017-10-23T00:00:00+00:00</lastmod>
+    <loc>/tags/</loc>
+    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
