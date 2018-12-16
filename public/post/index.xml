@@ -5,10 +5,21 @@
     <link>/post/</link>
     <description>Recent content in Posts on Shan Data Scientist to be!</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 09 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>I&#39;m now a data scientist!</title>
+      <link>/post/i-m-now-a-data-scientist/</link>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/i-m-now-a-data-scientist/</guid>
+      <description>TLDR; I went to a recruitment hackathon 6 months ago and got offered a job. Now part of one of the coolest teams around
+As the title explains, I started a new job two months as a junior data scientist!
+I started looking for a new job earlier this year. Inially I&amp;rsquo;d been interviewing for roles that weren&amp;rsquo;t right as they were either too technical or . I must have interviewed at least 5 times this year and I got rejected from them all.</description>
+    </item>
     
     <item>
       <title>SQL Part 2 of 4</title>
