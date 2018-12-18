@@ -43,10 +43,21 @@ paginate = 5
     weight = 2
     
     [[menu.main]]
-    parent = "Resources"
+    identifier = "Code"
     name = "code"
-    url = "page/code"
     weight = 1
+    
+    [[menu.main]]
+    parent = "Code"
+    name = "Python"
+    url = "page/python"
+    weight = 2
+    
+    [[menu.main]]
+    parent = "Code"
+    name = "R"
+    url = "page/R"
+    weight = 2
 
     [[menu.main]]
     parent = "Resources"
