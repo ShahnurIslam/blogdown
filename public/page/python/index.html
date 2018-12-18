@@ -8,9 +8,13 @@
   <title>Python</title>
   <meta property="og:title" content="Python" />
   <meta name="twitter:title" content="Python" />
-  <meta name="description" content=" Table of Contents  Pandas Conditonal Column Example2 Third Example  Pandas Conditonal Column import numpy as np import pandas as pd Example2 Third Example ">
-  <meta property="og:description" content=" Table of Contents  Pandas Conditonal Column Example2 Third Example  Pandas Conditonal Column import numpy as np import pandas as pd Example2 Third Example ">
-  <meta name="twitter:description" content=" Table of Contents  Pandas Conditonal Column Example2 Third Example  Pandas Conditonal Column import numpy as np import pandas as pd Example2 Third Example ">
+  <meta name="description" content="Table of Contents  Pandas Conditonal Column  Pandas Conditonal Column A conditional column is a column in a dataframe that is generated based on other column/s. There are multiple way of doing this in Python but one of the quickest ways is to use the np.where() function. This function is basically the equivalent of an if statement in Excel.
+np.where(condition,True action, False action)
+#import the two libraries import numpy as np import pandas as pd #generate a pandas dataframe of one column with a 100 random integers df = pd.">
+  <meta property="og:description" content="Table of Contents  Pandas Conditonal Column  Pandas Conditonal Column A conditional column is a column in a dataframe that is generated based on other column/s. There are multiple way of doing this in Python but one of the quickest ways is to use the np.where() function. This function is basically the equivalent of an if statement in Excel.
+np.where(condition,True action, False action)
+#import the two libraries import numpy as np import pandas as pd #generate a pandas dataframe of one column with a 100 random integers df = pd.">
+  <meta name="twitter:description" content="Table of Contents  Pandas Conditonal Column  Pandas Conditonal Column A conditional column is a column in a dataframe that is generated based on other column/s. There are multiple way of doing this in …">
   <meta name="author" content="Shan Islam"/>
   <link href='/img/favicon%20%281%29.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="/img/Logo.png" />
@@ -194,17 +198,29 @@
 
 <ol>
 <li><a href="#Numpy Where">Pandas Conditonal Column</a></li>
-<li><a href="#example2">Example2</a></li>
-<li><a href="#third-example">Third Example</a></li>
 </ol>
 
 <h2 id="pandas-conditonal-column">Pandas Conditonal Column</h2>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span></code></pre></div>
-<h2 id="example2">Example2</h2>
 
-<h2 id="third-example">Third Example</h2>
+<p>A conditional column is a column in a dataframe that is generated based on other column/s. There are multiple way of doing this in Python but one of the quickest ways is to use the <code>np.where()</code> function. This function is basically the equivalent of an if statement in Excel.</p>
 
+<p><code>np.where(condition,True action, False action)</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1">#import the two libraries</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+
+<span class="c1">#generate a pandas dataframe of one column with a 100 random integers</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">low</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">high</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span><span class="n">size</span> <span class="o">=</span> <span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">1</span><span class="p">)),</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;col1&#39;</span><span class="p">])</span>
+
+<span class="c1">#Generate a conditional column that checks if the number is even or odd</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;odd/even&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;col1&#39;</span><span class="p">]</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;odd&#39;</span><span class="p">,</span> <span class="s1">&#39;even&#39;</span><span class="p">)</span></code></pre></div>
+<p>If we print the first 5 rows of our data frame we get :</p>
+<div class="highlight"><pre class="chroma">   col1 odd/even
+0    87      odd
+1    85      odd
+2    22     even
+3    80     even
+4     0     even</pre></div>
       </article>
 
       

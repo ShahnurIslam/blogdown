@@ -5,10 +5,21 @@
     <link>/tags/python/</link>
     <description>Recent content in Python on Shan Data Scientist to be!</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 23 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Dec 2018 15:36:35 +0000</lastBuildDate>
     
 	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python</title>
+      <link>/page/python/</link>
+      <pubDate>Tue, 18 Dec 2018 15:36:35 +0000</pubDate>
+      
+      <guid>/page/python/</guid>
+      <description>Table of Contents  Pandas Conditonal Column  Pandas Conditonal Column A conditional column is a column in a dataframe that is generated based on other column/s. There are multiple way of doing this in Python but one of the quickest ways is to use the np.where() function. This function is basically the equivalent of an if statement in Excel.
+np.where(condition,True action, False action)
+#import the two libraries import numpy as np import pandas as pd #generate a pandas dataframe of one column with a 100 random integers df = pd.</description>
+    </item>
     
     <item>
       <title>G1 Climax</title>
