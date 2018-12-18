@@ -6,10 +6,18 @@ tags: []
 ---
 
 # Table of Contents
-1. [Example](#example)
+1. [Pandas Conditonal Column](#Numpy Where)
 2. [Example2](#example2)
 3. [Third Example](#third-example)
 
-## Example
+## Pandas Conditonal Column
+
+``` {python}
+import numpy as np
+import pandas as pd
+
+
+```
+
 ## Example2
 ## Third Example
