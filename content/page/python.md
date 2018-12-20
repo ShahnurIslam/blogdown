@@ -6,10 +6,12 @@ tags: [python]
 ---
 
 # Table of Contents
-1. [Pandas Conditonal Column](#Numpy Where)
+* [Pandas](##Pandas)
+  * [Pandas Conditonal Column](#Pandas Conditonal Column)
 [//]: <> (2. [SQL Windows Function](#SQL Windows Function))
 
-## Pandas Conditonal Column
+## Pandas
+### Pandas Conditonal Column
 
 A conditional column is a column in a dataframe that is generated based on other column/s. There are multiple way of doing this in Python but one of the quickest ways is to use the `np.where()` function. This function is basically the equivalent of an if statement in Excel.
 
@@ -36,5 +38,7 @@ If we print the first 5 rows of our data frame we get :
     4     0     even
 
     
+    
+
 [//]: <> (## SQL Windows Function)
 
