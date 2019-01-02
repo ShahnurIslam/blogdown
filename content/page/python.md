@@ -8,6 +8,7 @@ tags: [python]
 # Table of Contents
 * [Pandas](##Pandas)
   * [Pandas Conditonal Column](#Pandas Conditonal Column)
+  * [Applying functions to Pandas columns](#Applying functions to Pandas columns)
 [//]: <> (2. [SQL Windows Function](#SQL Windows Function))
 
 ## Pandas
@@ -37,8 +38,43 @@ If we print the first 5 rows of our data frame we get :
     3    80     even
     4     0     even
 
+---
     
-    
+### Applying functions to Pandas columns
+
+We want to manipulate all the values in one column with a function with created. It's actually quite simple as Pandas series have an `.apply` method. An example below
+
+``` {python}
+#import the two libraries
+import numpy as np
+import pandas as pd
+
+#generate a pandas dataframe of one column with a 100 random integers
+df = pd.DataFrame(np.random.randint(low=0,high = 100,size = (100,1)),columns = ['col1'])
+
+#create a function that multiplies a number by two
+def multiply_by_2(number):
+    val = number * 2
+    return val
+
+#test it on single value
+print(multiply_by_2(2))
+
+4
+
+#Create a second column that is based on multiplying the first column by 2
+df['col2'] = df['col1'].apply(multiply_by_2)
+```
+If we print the first 5 rows of our data frame we get :
+```
+       col1  col2
+    0    81   162
+    1    26    52
+    2     6    12
+    3    80   160
+    4    35    70
+```
+
 
 [//]: <> (## SQL Windows Function)
 

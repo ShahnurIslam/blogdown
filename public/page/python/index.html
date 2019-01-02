@@ -8,13 +8,9 @@
   <title>Python</title>
   <meta property="og:title" content="Python" />
   <meta name="twitter:title" content="Python" />
-  <meta name="description" content="Table of Contents  Pandas  Pandas Conditonal Column   Pandas Pandas Conditonal Column A conditional column is a column in a dataframe that is generated based on other column/s. There are multiple way of doing this in Python but one of the quickest ways is to use the np.where() function. This function is basically the equivalent of an if statement in Excel.
-np.where(condition,True action, False action)
-#import the two libraries import numpy as np import pandas as pd #generate a pandas dataframe of one column with a 100 random integers df = pd.">
-  <meta property="og:description" content="Table of Contents  Pandas  Pandas Conditonal Column   Pandas Pandas Conditonal Column A conditional column is a column in a dataframe that is generated based on other column/s. There are multiple way of doing this in Python but one of the quickest ways is to use the np.where() function. This function is basically the equivalent of an if statement in Excel.
-np.where(condition,True action, False action)
-#import the two libraries import numpy as np import pandas as pd #generate a pandas dataframe of one column with a 100 random integers df = pd.">
-  <meta name="twitter:description" content="Table of Contents  Pandas  Pandas Conditonal Column   Pandas Pandas Conditonal Column A conditional column is a column in a dataframe that is generated based on other column/s. There are multiple way …">
+  <meta name="description" content="Table of Contents  Pandas  Pandas Conditonal Column Applying functions to Pandas columns   Pandas Pandas Conditonal Column A conditional column is a column in a dataframe that is generated based on other column/s. There are multiple way of doing this in Python but one of the quickest ways is to use the np.where() function. This function is basically the equivalent of an if statement in Excel.">
+  <meta property="og:description" content="Table of Contents  Pandas  Pandas Conditonal Column Applying functions to Pandas columns   Pandas Pandas Conditonal Column A conditional column is a column in a dataframe that is generated based on other column/s. There are multiple way of doing this in Python but one of the quickest ways is to use the np.where() function. This function is basically the equivalent of an if statement in Excel.">
+  <meta name="twitter:description" content="Table of Contents  Pandas  Pandas Conditonal Column Applying functions to Pandas columns   Pandas Pandas Conditonal Column A conditional column is a column in a dataframe that is generated based on …">
   <meta name="author" content="Shan Islam"/>
   <link href='/img/favicon%20%281%29.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="/img/Logo.png" />
@@ -212,6 +208,7 @@ if (!doNotTrack) {
 
 <ul>
 <li><a href="#Pandas Conditonal Column">Pandas Conditonal Column</a></li>
+<li><a href="#Applying functions to Pandas columns">Applying functions to Pandas columns</a></li>
 </ul></li>
 </ul>
 
@@ -238,6 +235,37 @@ if (!doNotTrack) {
 2    22     even
 3    80     even
 4     0     even</pre></div>
+<hr />
+
+<h3 id="applying-functions-to-pandas-columns">Applying functions to Pandas columns</h3>
+
+<p>We want to manipulate all the values in one column with a function with created. It&rsquo;s actually quite simple as Pandas series have an <code>.apply</code> method. An example below</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1">#import the two libraries</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+
+<span class="c1">#generate a pandas dataframe of one column with a 100 random integers</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">low</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">high</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span><span class="n">size</span> <span class="o">=</span> <span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">1</span><span class="p">)),</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;col1&#39;</span><span class="p">])</span>
+
+<span class="c1">#create a function that multiplies a number by two</span>
+<span class="k">def</span> <span class="nf">multiply_by_2</span><span class="p">(</span><span class="n">number</span><span class="p">):</span>
+    <span class="n">val</span> <span class="o">=</span> <span class="n">number</span> <span class="o">*</span> <span class="mi">2</span>
+    <span class="k">return</span> <span class="n">val</span>
+
+<span class="c1">#test it on single value</span>
+<span class="k">print</span><span class="p">(</span><span class="n">multiply_by_2</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>
+
+<span class="mi">4</span>
+
+<span class="c1">#Create a second column that is based on multiplying the first column by 2</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;col2&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;col1&#39;</span><span class="p">]</span><span class="o">.</span><span class="nb">apply</span><span class="p">(</span><span class="n">multiply_by_2</span><span class="p">)</span></code></pre></div>
+<p>If we print the first 5 rows of our data frame we get :</p>
+<div class="highlight"><pre class="chroma">       col1  col2
+    0    81   162
+    1    26    52
+    2     6    12
+    3    80   160
+    4    35    70</pre></div>
       </article>
 
       
