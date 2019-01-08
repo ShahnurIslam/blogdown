@@ -3,15 +3,19 @@ title: "Python"
 date: 2018-12-18T15:36:35Z
 subtitle: ""
 tags: [python]
+output:
+  blogdown::html_page:
+    toc: true
+
 ---
 
-# Table of Contents
-* [Pandas](##Pandas)
-  * [Pandas Conditonal Column](#Pandas Conditonal Column)
-  * [Applying functions to Pandas columns](#Applying functions to Pandas columns)
-[//]: <> (2. [SQL Windows Function](#SQL Windows Function))
+# Contents
+- [Pandas](#Pandas)
+  * [Pandas Conditonal Column](###Pandas%20Conditonal%20Column)
+  * [Applying functions to Pandas columns](###Applying%20functions%20to%20Pandas%20columns)
 
-## Pandas
+
+# Pandas
 ### Pandas Conditonal Column
 
 A conditional column is a column in a dataframe that is generated based on other column/s. There are multiple way of doing this in Python but one of the quickest ways is to use the `np.where()` function. This function is basically the equivalent of an if statement in Excel.
