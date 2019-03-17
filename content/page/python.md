@@ -3,10 +3,6 @@ title: "Python"
 date: 2018-12-18T15:36:35Z
 subtitle: ""
 tags: [python]
-output:
-  blogdown::html_page:
-    toc: true
-
 ---
 
 # Contents
