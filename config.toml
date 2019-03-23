@@ -1,67 +1,90 @@
 baseurl = "https://shan-data-science.co.uk"
-DefaultContentLanguage = "en"
-#DefaultContentLanguage = "ja"
-title = "Shan Data Scientist to be!"
-theme = "beautifulhugo"
+DefaultContentLanguage = "en-us"
+title = "Shan Islam"
+theme = "hugo-theme-cleanwhite"
 metaDataFormat = "yaml"
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
+#pygmentsStyle = "trac"
+#pygmentsUseClasses = true
+#pygmentsCodeFences = true
+#pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 disqusShortname = "https-shahnurislam-github-io"
 googleAnalytics = "UA-96884074-1"
-paginate = 5
+preserveTaxonomyNames = false
+paginate = 5 #frontpage pagination
+hasCJKLanguage = false
 
 
-[Params]
-  logo = "img/Logo.png"
-  favicon = "img/favicon (1).ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = false
-  comments = true
-  readingTime = false
-  useHLJS = true
-  
-  [Author]
-  name = "Shan Islam"
-  website = "http://shan-data-science.co.uk/"
-  github = "ShahnurIslam"
-  twitter = "5hanIslam"
-  linkedin = "shahnurislam"
-  
-  
-  [[menu.main]]
-    name = "About Me"
-    url = "page/about/"
-    weight = 1
-    
-    [[menu.main]]
-    identifier = "Resources"
-    name = "Resources"
-    weight = 2
-    
-    [[menu.main]]
-    identifier = "Code"
-    name = "code"
-    weight = 1
-    
-    [[menu.main]]
-    parent = "Code"
-    name = "Python"
-    url = "page/python"
-    weight = 2
-    
-    [[menu.main]]
-    parent = "Code"
-    name = "R"
-    url = "page/R"
-    weight = 2
+[params]
+  header_image = "img/ai-blur-codes-577585.jpg"
+  SEOTitle = "Shan Data Science"
+  #description = "赵化冰，程序员, 开源爱好者，生活探险家 | 这里是 赵化冰 的博客，与你一起发现更大的世界。"
+  #keyword = "赵化冰, zhaohuabing, Zhaohuabing, , 赵化冰的网络日志, 赵化冰的博客, Zhaohuabing Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice"
+  #slogan = "路在脚下，心向远方"
 
-    [[menu.main]]
-    parent = "Resources"
-    name = "John Mackintosh"
-    url = "https://www.johnmackintosh.com/"
-    weight = 1
+  image_404 = "img/404-bg.jpg"
+  title_404 = "Sorry that page doesn't exist:("
+
+
+
+  # Sidebar setting
+  sidebar_about_description = "Data Scientist continuing to learn and share"
+  sidebar_avatar = "img/avatar.jpeg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  #sidebar_avatar = "img/zhaohuabing.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+  featured_tags = true 
+  featured_condition_size = 1 
+
+
+  
+  # We need a proxy to access Disqus api in China
+
+  disqus_site = ""
+
+  #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
+  reward = false
+  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
+
+  friends = true
+  bookmarks = false
+  about_me = true
+
+  [params.social]
+  rss            = false
+  email          = "youremail@gmail.com"
+  #facebook      = "full profile url in facebook"
+  #googleplus    = "full profile url in googleplus"
+  twitter        = "https://twitter.com/5hanIslam"
+  linkedin       = "https://www.linkedin.com/in/shahnurislam"
+  #stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
+  #instagram     = "full profile url in instagram"
+  github         = "https://github.com/ShahnurIslam"
+  #wechat         = "your wechat qr code image"
+#  medium         = "full profile url in medium"
+  #pinterest     = "full profile url in pinterest"
+  
+  [[params.friend_link]]
+  title = "John Mackintosh"
+  href =  "https://johnmackintosh.com"
+
+  
+  [[params.addtional_menus]]
+  title =  "R Code"
+  href =  "/page/R/"
+  [[params.addtional_menus]]
+  title =  "Python Code"
+  href =  "/page/python/"
+  [[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/page/about/"
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"] 
