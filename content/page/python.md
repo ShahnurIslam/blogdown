@@ -3,12 +3,9 @@ title: "Python"
 date: 2018-12-18T15:36:35Z
 subtitle: ""
 tags: [python]
+toc: no
+toc-title: "INDICE"
 ---
-
-# Contents
-- [Pandas](#Pandas)
-  * [Pandas Conditonal Column](###Pandas%20Conditonal%20Column)
-  * [Applying functions to Pandas columns](###Applying%20functions%20to%20Pandas%20columns)
 
 
 # Pandas
