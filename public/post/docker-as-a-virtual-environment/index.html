@@ -18,9 +18,9 @@
     
 
     
-    <meta name="title" content="Jekyll &amp; Cookies[Mini-Post]" />
-    <meta property="og:title" content="Jekyll &amp; Cookies[Mini-Post]" />
-    <meta property="twitter:title" content="Jekyll &amp; Cookies[Mini-Post]" />
+    <meta name="title" content="Docker as a virtual Environment" />
+    <meta property="og:title" content="Docker as a virtual Environment" />
+    <meta property="twitter:title" content="Docker as a virtual Environment" />
     
 
     
@@ -37,9 +37,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Jekyll &amp; Cookies[Mini-Post]-Shan Data Science</title>
+    <title>Docker as a virtual Environment-Shan Data Science</title>
 
-    <link rel="canonical" href="/post/jekyll-cookies-mini-post/">
+    <link rel="canonical" href="/post/docker-as-a-virtual-environment/">
 
     <link rel="stylesheet" href="/css/iDisqus.min.css"/>
 	
@@ -159,20 +159,24 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/jekyll" title="Jekyll">
-                            Jekyll
+                        <a class="tag" href="/tags/docker" title="docker">
+                            docker
+                        </a>
+                        
+                        <a class="tag" href="/tags/data-science" title="data science">
+                            data science
                         </a>
                         
                     </div>
-                    <h1>Jekyll &amp; Cookies[Mini-Post]</h1>
+                    <h1>Docker as a virtual Environment</h1>
                     <h2 class="subheading"></h2>
                     <span class="meta">
 			Posted by 
 			
-		            Shan Islam
+			    Shan Islam
 			 
 			on 
-			Friday, March 2, 2018
+			Sunday, June 23, 2019
                         
                     </span>
                 </div>
@@ -198,67 +202,36 @@
                 <header>
                     <h2>TOC</h2>
                 </header>
-                <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#what-s-a-cookie">What&rsquo;s a cookie?</a></li>
-<li><a href="#what-s-beautiful-jekyll-doesn-t-mean-pretty-dr-jekyll">What&rsquo;s Beautiful Jekyll?<em>(Doesn&rsquo;t mean pretty Dr Jekyll!)</em></a></li>
-<li><a href="#cookie-implementation">Cookie Implementation</a>
-<ul>
-<li><a href="#step-1-create-cookie-script"><strong>Step 1 Create Cookie Script</strong></a></li>
-<li><a href="#step-2-copy-paste-script-into-beautfiul-jekyll-repo"><strong>Step 2 Copy &amp; Paste Script into Beautfiul Jekyll repo</strong></a></li>
-</ul></li>
-</ul></li>
-</ul>
-</nav>
                 
                 
+                <p>There are loads of posts out there about Docker on how it works and building pipelines.</p>
 
-<p>In May 2011 the EU passed a law that affects all cookie enabled websites. A cookie enabled website now needs to inform those who visit thier site that they are using cookies.</p>
+<p>This post is more about Docker from a data science point of view. Docker can be great when you need to deploy a pipeline,API and models to be run.</p>
 
-<p>If this is your first time on my site you would have seen the below.</p>
+<p>However in my work I&rsquo;ve come across situations where colleagues can&rsquo;t use a package because they don&rsquo;t have java installed or they do but the version is incompatible with their needs. This means then cants use some packages because of r or python on their machine.</p>
 
-<p><img src="/img/Cookie%20Consent.JPG" alt="CookieConsent" /></p>
+<p>This is my approach on creating a docker environment that everyone can work out.</p>
 
-<p>I use cookies to track traffic and user behaviour on my site.  My blog is created through Beautiful Jekyll and it took me a little while to implement this. So I made this post in the hopes that it may help others and save them time.</p>
+<p>This may not be best practice and you may not have issues in your team like these.</p>
 
-<p>If the above didn&rsquo;t make any sense let me explain.</p>
+<p>The point is people are able to set up the environment and run the scripts without any issues. This allows them to contribute and work on it.</p>
 
-<h2 id="what-s-a-cookie">What&rsquo;s a cookie?</h2>
+<p>Ok, you may have a project like this already. I&rsquo;ll do this in 3 parts. Python environment, Java</p>
 
-<p>A quick explanation of a cookies is that it&rsquo;s a small bit of text that is downloaded onto your device when you visit a site. My wife said it&rsquo;s a horribly misleading term that makes you think of baked goods and should be called something else.</p>
+<p>Src
+data
+Requirements.txt
+Jaydebeapi</p>
 
-<p><img src="https://www.askideas.com/media/41/I-Got-99-Cookies-But-A-Bitch-Ate-One-Funny-Cookie-Meme-Picture.jpg" alt="Cookies" /></p>
+<p>Set up the dockerfile. Install git
+Credentials file
+Explain each step,</p>
 
-<p>Websites can use this data for a myriad of things . As an example a site may use the cookie to track how many times you visited the site, how long you&rsquo;ve been there and whether you&rsquo;ve made any purchases.  Before the cookie law came in, this information was gathered without the user being aware. I won&rsquo;t go into all the details about the cookie law but more information can be found <a href="https://www.cookielaw.org/faq/#Whatsthecookielawallabout">here</a>.</p>
+<p>Pycharm editor</p>
 
-<h2 id="what-s-beautiful-jekyll-doesn-t-mean-pretty-dr-jekyll">What&rsquo;s Beautiful Jekyll?<em>(Doesn&rsquo;t mean pretty Dr Jekyll!)</em></h2>
-
-<p>Beautiful Jekyll is a website template I used to create my blog site. It was created by Dean Attali and allows users to create and host their site on Github. I&rsquo;ve mainly seen it used for Data Science blogs but the contenet could be anything.</p>
-
-<h2 id="cookie-implementation">Cookie Implementation</h2>
-
-<h3 id="step-1-create-cookie-script"><strong>Step 1 Create Cookie Script</strong></h3>
-
-<p>First of all we will need some script that will create a cookie consent pop up. I used <a href="https://cookieconsent.insites.com/download/">Cookie Consent</a> to create my script. They allow you to customise the theme of the pop up and provide default consent terms.
-Feel free to create on your own scirpt if you know how.</p>
-
-<h3 id="step-2-copy-paste-script-into-beautfiul-jekyll-repo"><strong>Step 2 Copy &amp; Paste Script into Beautfiul Jekyll repo</strong></h3>
-
-<p>Once you&rsquo;ve created your script, copy the code. We then paste the script into this file <strong>&lsquo;head.html&rsquo;</strong> which can be found in the folder ** _updates**  Place it at the very bottom between the {$ end if $} and the </head> tags. See mine below, as an example</p>
-
-<p><img src="/img/Head_HTML.PNG" alt="example" /></p>
-
-<p>Click commit once you&rsquo;re done and it&rsquo;s as easy as that!</p>
-
-<p>Hope this helps others and thank you for reading - Till the next post!</p>
-
-<p>Thanks,</p>
-
-<p>Shan</p>
-
-<hr />
+<p>Docker build
+Docker run
+And you should be able to do everything else</p>
 
 
                 
@@ -267,15 +240,10 @@ Feel free to create on your own scirpt if you know how.</p>
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/post/new-year-new-post/" data-toggle="tooltip" data-placement="top" title="New Year, New post!">&larr;
+                        <a href="/post/i-m-now-a-data-scientist/" data-toggle="tooltip" data-placement="top" title="I&#39;m now a data scientist!">&larr;
                             Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/post/2018-03-09-sql-part-2-of-4/" data-toggle="tooltip" data-placement="top" title="SQL Part 2 of 4">Next
-                            Post &rarr;</a>
-                    </li>
                     
                 </ul>
 

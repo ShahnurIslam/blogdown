@@ -18,9 +18,9 @@
     
 
     
-    <meta name="title" content="Jekyll &amp; Cookies[Mini-Post]" />
-    <meta property="og:title" content="Jekyll &amp; Cookies[Mini-Post]" />
-    <meta property="twitter:title" content="Jekyll &amp; Cookies[Mini-Post]" />
+    <meta name="title" content="" />
+    <meta property="og:title" content="" />
+    <meta property="twitter:title" content="" />
     
 
     
@@ -37,9 +37,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Jekyll &amp; Cookies[Mini-Post]-Shan Data Science</title>
+    <title>Docker-Shan Data Science</title>
 
-    <link rel="canonical" href="/post/jekyll-cookies-mini-post/">
+    <link rel="canonical" href="/tags/docker/">
 
     <link rel="stylesheet" href="/css/iDisqus.min.css"/>
 	
@@ -146,35 +146,14 @@
 
 
 
-
-<style type="text/css">
-    header.intro-header {
-        background-image: url('/img/ai-blur-codes-577585.jpg')
-    }
-</style>
-<header class="intro-header">
+<header class="intro-header" style="background-image: url('/img/ai-blur-codes-577585.jpg')">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <div class="tags">
-                        
-                        <a class="tag" href="/tags/jekyll" title="Jekyll">
-                            Jekyll
-                        </a>
-                        
-                    </div>
-                    <h1>Jekyll &amp; Cookies[Mini-Post]</h1>
-                    <h2 class="subheading"></h2>
-                    <span class="meta">
-			Posted by 
-			
-		            Shan Islam
-			 
-			on 
-			Friday, March 2, 2018
-                        
-                    </span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>Shan Islam </h1>
+                    
+		    <span class="subheading"></span>
                 </div>
             </div>
         </div>
@@ -183,191 +162,170 @@
 
 
 
-
-<article>
-    <div class="container">
-        <div class="row">
-
+  
+<div class="container">
+    <div class="row">
+        
+        
+   	    <div class="
+            col-lg-8 col-lg-offset-1
+            col-md-8 col-md-offset-1
+            col-sm-12
+            col-xs-12
+            post-container
+        ">
             
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                post-container">
 
-                
-                <header>
-                    <h2>TOC</h2>
-                </header>
-                <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#what-s-a-cookie">What&rsquo;s a cookie?</a></li>
-<li><a href="#what-s-beautiful-jekyll-doesn-t-mean-pretty-dr-jekyll">What&rsquo;s Beautiful Jekyll?<em>(Doesn&rsquo;t mean pretty Dr Jekyll!)</em></a></li>
-<li><a href="#cookie-implementation">Cookie Implementation</a>
-<ul>
-<li><a href="#step-1-create-cookie-script"><strong>Step 1 Create Cookie Script</strong></a></li>
-<li><a href="#step-2-copy-paste-script-into-beautfiul-jekyll-repo"><strong>Step 2 Copy &amp; Paste Script into Beautfiul Jekyll repo</strong></a></li>
-</ul></li>
-</ul></li>
-</ul>
-</nav>
-                
-                
-
-<p>In May 2011 the EU passed a law that affects all cookie enabled websites. A cookie enabled website now needs to inform those who visit thier site that they are using cookies.</p>
-
-<p>If this is your first time on my site you would have seen the below.</p>
-
-<p><img src="/img/Cookie%20Consent.JPG" alt="CookieConsent" /></p>
-
-<p>I use cookies to track traffic and user behaviour on my site.  My blog is created through Beautiful Jekyll and it took me a little while to implement this. So I made this post in the hopes that it may help others and save them time.</p>
-
-<p>If the above didn&rsquo;t make any sense let me explain.</p>
-
-<h2 id="what-s-a-cookie">What&rsquo;s a cookie?</h2>
-
-<p>A quick explanation of a cookies is that it&rsquo;s a small bit of text that is downloaded onto your device when you visit a site. My wife said it&rsquo;s a horribly misleading term that makes you think of baked goods and should be called something else.</p>
-
-<p><img src="https://www.askideas.com/media/41/I-Got-99-Cookies-But-A-Bitch-Ate-One-Funny-Cookie-Meme-Picture.jpg" alt="Cookies" /></p>
-
-<p>Websites can use this data for a myriad of things . As an example a site may use the cookie to track how many times you visited the site, how long you&rsquo;ve been there and whether you&rsquo;ve made any purchases.  Before the cookie law came in, this information was gathered without the user being aware. I won&rsquo;t go into all the details about the cookie law but more information can be found <a href="https://www.cookielaw.org/faq/#Whatsthecookielawallabout">here</a>.</p>
-
-<h2 id="what-s-beautiful-jekyll-doesn-t-mean-pretty-dr-jekyll">What&rsquo;s Beautiful Jekyll?<em>(Doesn&rsquo;t mean pretty Dr Jekyll!)</em></h2>
-
-<p>Beautiful Jekyll is a website template I used to create my blog site. It was created by Dean Attali and allows users to create and host their site on Github. I&rsquo;ve mainly seen it used for Data Science blogs but the contenet could be anything.</p>
-
-<h2 id="cookie-implementation">Cookie Implementation</h2>
-
-<h3 id="step-1-create-cookie-script"><strong>Step 1 Create Cookie Script</strong></h3>
-
-<p>First of all we will need some script that will create a cookie consent pop up. I used <a href="https://cookieconsent.insites.com/download/">Cookie Consent</a> to create my script. They allow you to customise the theme of the pop up and provide default consent terms.
-Feel free to create on your own scirpt if you know how.</p>
-
-<h3 id="step-2-copy-paste-script-into-beautfiul-jekyll-repo"><strong>Step 2 Copy &amp; Paste Script into Beautfiul Jekyll repo</strong></h3>
-
-<p>Once you&rsquo;ve created your script, copy the code. We then paste the script into this file <strong>&lsquo;head.html&rsquo;</strong> which can be found in the folder ** _updates**  Place it at the very bottom between the {$ end if $} and the </head> tags. See mine below, as an example</p>
-
-<p><img src="/img/Head_HTML.PNG" alt="example" /></p>
-
-<p>Click commit once you&rsquo;re done and it&rsquo;s as easy as that!</p>
-
-<p>Hope this helps others and thank you for reading - Till the next post!</p>
-
-<p>Thanks,</p>
-
-<p>Shan</p>
-
-<hr />
-
-
-                
-
-                <hr>
-                <ul class="pager">
-                    
-                    <li class="previous">
-                        <a href="/post/new-year-new-post/" data-toggle="tooltip" data-placement="top" title="New Year, New post!">&larr;
-                            Previous Post</a>
-                    </li>
-                    
-                    
-                    <li class="next">
-                        <a href="/post/2018-03-09-sql-part-2-of-4/" data-toggle="tooltip" data-placement="top" title="SQL Part 2 of 4">Next
-                            Post &rarr;</a>
-                    </li>
-                    
-                </ul>
-
-                
-<div id="disqus-comment"></div>
-
-<div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "https-shahnurislam-github-io" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-
-            </div>
-            
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                sidebar-container">
-
-                
-                
-                <section>
-                    <hr class="hidden-sm hidden-xs">
-                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
-                    <div class="tags">
-                        
-                        
-                        
-                        <a href="/tags/data-science" title="data-science">
-                            data-science
-                        </a>
-                        
-                        
-                        
-                        <a href="/tags/docker" title="docker">
-                            docker
-                        </a>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        <a href="/tags/python" title="python">
-                            python
-                        </a>
-                        
-                        
-                        
-                        <a href="/tags/sql" title="sql">
-                            sql
-                        </a>
-                        
-                        
-                    </div>
-                </section>
-                
-
-                
-                
-                <section>
-                    <hr>
-                    <h5>FRIENDS</h5>
-                    <ul class="list-inline">
-                        
-                        <li><a target="_blank" href="https://johnmackintosh.com">John Mackintosh</a></li>
-                        
-                    </ul>
-                </section>
-                
-            </div>
+<div class="post-preview">
+    <a href="/post/docker-as-a-virtual-environment/">
+        <h2 class="post-title">
+            Docker as a virtual Environment
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            There are loads of posts out there about Docker on how it works and building pipelines.
+This post is more about Docker from a data science point of view. Docker can be great when you need to deploy a pipeline,API and models to be run.
+However in my work I&rsquo;ve come across situations where colleagues can&rsquo;t use a package because they don&rsquo;t have java installed or they do but the version is incompatible with their needs.
+       
         </div>
-    </div>
-</article>
+    </a>
+    <p class="post-meta">
+    Posted by Shan Islam Sunday, June 23, 2019
+    </p>
+</div>
+<hr>
+
+
+            
+
+
+
+       	</div>
+        
+
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>FEATURED TAGS</h5>
+        <div class="tags">
+             
+            
+                
+                    <a href="/tags/data-science" title="data-science">
+                        data-science
+                    </a>
+                
+            
+                
+                    <a href="/tags/docker" title="docker">
+                        docker
+                    </a>
+                
+            
+                
+            
+                
+            
+                
+                    <a href="/tags/python" title="python">
+                        python
+                    </a>
+                
+            
+                
+                    <a href="/tags/sql" title="sql">
+                        sql
+                    </a>
+                
+            
+        </div>
+    </section>
+    
+
+    
+	
+    <section class="visible-md visible-lg">
+	<hr><h5><a href="/top/about">ABOUT ME</a></h5>
+        <div class="short-about">
+            
+            <a href="/top/about">
+               <img src="/img/avatar.jpeg" alt="avatar" style="cursor: pointer" />
+            </a>
+            
+            
+                <p>Data Scientist continuing to learn and share</p>
+            
+           
+           <ul class="list-inline"> 
+               
+               
+               <li>
+                   <a href="https://twitter.com/5hanIslam">
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="https://github.com/ShahnurIslam">
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               <li>
+                   <a target="_blank" href="https://www.linkedin.com/in/shahnurislam">
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+                </ul>
+            </div>
+    </section>
+	
+    
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>FRIENDS</h5>
+        <ul class="list-inline">
+            
+            <li><a target="_blank" href="https://johnmackintosh.com">John Mackintosh</a></li>
+            
+        </ul>
+    </section>
+    
+
+    
+    
+</div>
+
+	</div>
+</div>
+
 
 
 

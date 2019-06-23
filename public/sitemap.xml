@@ -3,8 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/docker-as-a-virtual-environment/</loc>
+    <lastmod>2019-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/page/r/</loc>
     <lastmod>2018-12-18T15:38:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/page/docker/</loc>
+    <lastmod>2018-12-18T15:36:35+00:00</lastmod>
   </url>
   
   <url>
@@ -54,7 +64,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-12-18T15:38:40+00:00</lastmod>
+    <lastmod>2019-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -68,7 +78,13 @@
   
   <url>
     <loc>/tags/data-science/</loc>
-    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2019-06-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -92,7 +108,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -110,7 +126,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -5,10 +5,21 @@
     <link>/</link>
     <description>Recent content on Shan Islam</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 18 Dec 2018 15:38:40 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker as a virtual Environment</title>
+      <link>/post/docker-as-a-virtual-environment/</link>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/docker-as-a-virtual-environment/</guid>
+      <description>There are loads of posts out there about Docker on how it works and building pipelines.
+This post is more about Docker from a data science point of view. Docker can be great when you need to deploy a pipeline,API and models to be run.
+However in my work I&amp;rsquo;ve come across situations where colleagues can&amp;rsquo;t use a package because they don&amp;rsquo;t have java installed or they do but the version is incompatible with their needs.</description>
+    </item>
     
     <item>
       <title>R</title>
@@ -17,6 +28,15 @@
       
       <guid>/page/r/</guid>
       <description> Table of Contents  Example Example2 Third Example  Example Example2 Third Example </description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>/page/docker/</link>
+      <pubDate>Tue, 18 Dec 2018 15:36:35 +0000</pubDate>
+      
+      <guid>/page/docker/</guid>
+      <description></description>
     </item>
     
     <item>

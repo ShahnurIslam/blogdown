@@ -76,6 +76,9 @@ hasCJKLanguage = false
   title =  "Python Code"
   href =  "/page/python/"
   [[params.addtional_menus]]
+  title =  "Docker Code"
+  href =  "/page/docker/"
+  [[params.addtional_menus]]
   title =  "ABOUT"
   href =  "/page/about/"
 
